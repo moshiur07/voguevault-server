@@ -1,0 +1,49 @@
+{
+    "functions": {
+      "api": {
+        "/products": {
+          "get": {
+            "handler": "api/products.js"
+          },
+          "post": {
+            "handler": "api/products.js"
+          }
+        },
+        "/products/:name": {
+          "get": {
+            "handler": "api/products.js"
+          }
+        },
+        "/update/:id": {
+          "get": {
+            "handler": "api/update.js"
+          },
+          "put": {
+            "handler": "api/update.js"
+          }
+        },
+        "/details/:id": {
+          "get": {
+            "handler": "api/details.js"
+          }
+        },
+        "/carts": {
+          "get": {
+            "handler": "api/carts.js"
+          },
+          "post": {
+            "handler": "api/carts.js"
+          }
+        },
+        "/carts/:id": {
+          "get": {
+            "handler": "api/carts.js"
+          },
+          "delete": {
+            "handler": "api/carts.js"
+          }
+        }
+      }
+    }
+  }
+  
